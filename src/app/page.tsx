@@ -4,16 +4,7 @@ export default function TaqiProfile() {
   return (
     <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       {/* Header for Taqi */}
-      <header className="bg-gradient-to-r from-red-500 to-orange-500 text-white shadow-lg w-full">
-        <div className="container mx-auto p-4 flex justify-between items-center">
-          <h1 className="text-xl font-bold">Profile Section: Taqi</h1>
-          <nav className="space-x-6">
-            <a href="/portfolio" className="hover:text-gray-200">Portfolio</a>
-            <a href="/about" className="hover:text-gray-200">About</a>
-            <a href="/contact" className="hover:text-gray-200">Contact Us</a>
-          </nav>
-        </div>
-      </header>
+    
 
       {/* Main Content for Taqi */}
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
@@ -47,11 +38,7 @@ export default function TaqiProfile() {
 
         {/* Footer for Taqi */}
       </main>
-        <footer className="bg-gradient-to-r from-red-500 to-orange-500 text-white w-full p-4 mt-auto">
-          <div className="container mx-auto text-center">
-            <p>&copy; 2024 Taqi&apos;s Profile Page. All rights reserved.</p>
-          </div>
-        </footer>
+        
     </div>
   );
 }

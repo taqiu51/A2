@@ -48,8 +48,8 @@ export default function TaqiProfile() {
         {/* Footer for Taqi */}
       </main>
         <footer className="bg-gradient-to-r from-red-500 to-orange-500 text-white w-full p-4 mt-auto">
-          <div className="container  mx-auto text-center">
-            <p> &apos; 2024 Taqi's Profile Page. All rights reserved.</p>
+          <div className="container mx-auto text-center">
+            <p>&copy; 2024 Taqi&apos;s Profile Page. All rights reserved.</p>
           </div>
         </footer>
     </div>
